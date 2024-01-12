@@ -25,9 +25,9 @@ let currZevoSpeech = 'Activaţi Zevo STT';
 let mousePos = { x: undefined, y: undefined };
 let currAnimation;
 const sample_rate = 16000;
-const APIkey = 'vladpenescu2023#';
-const sever_phrasesSTT = 'wss://live-transcriber.zevo-tech.com:2087';
-const server_normalSTT = 'wss://live-transcriber.zevo-tech.com:2053';
+const APIkey = '';
+const sever_phrasesSTT = '';
+const server_normalSTT = '';
 const INTERVAL = 250;
 const mainPort = chrome.runtime.connect({ name: 'main-port' });
 const phrases =
