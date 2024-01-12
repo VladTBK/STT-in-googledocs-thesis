@@ -1,0 +1,52 @@
+{
+	"name": "Docs Live Transcriber Plugin",
+	"version": "1.0.0",
+	"description": "A plugin for voice dictation and voice functions for GDocs.",
+	"author": "Penescu Vlad",
+
+	"permissions": [
+		"storage",
+		"identity",
+		"tabs",
+		"activeTab",
+		"scripting",
+		"webRequest",
+		"notifications"
+	],
+
+	"host_permissions": [
+		"https://*.docs.google.com/*",
+		"https://www.googleapis.com/*",
+		"https://apis.google.com/js/api.js"
+	],
+	"background": {
+		"service_worker": "service_worker.js",
+		"type": "module"
+	},
+
+	"content_scripts": [
+		{
+			"matches": ["https://*.docs.google.com/*"],
+			"js": ["main.js", "audio_worker.js", "style.js"],
+			"type": "module"
+		}
+	],
+
+	"oauth2": {
+		"client_id": "381715553189-3c5hk7ngsbihkrgbkkk99u5i4u8kmlrt.apps.googleusercontent.com",
+		"api_key": "AIzaSyDnkjZBJKromGYZvYDvghwjHXZM3Sf_E1Y",
+		"scopes": [
+			"https://www.googleapis.com/auth/documents",
+			"https://www.googleapis.com/auth/drive",
+			"https://www.googleapis.com/auth/userinfo.email",
+			"profile"
+		],
+		"discovery_docs": [
+			"https://docs.googleapis.com/$discovery/rest?version=v1"
+		]
+	},
+	"content_security_policy": {
+		"extension_pages": "script-src 'self' 'wasm-unsafe-eval'  ; object-src 'self'"
+	},
+	"manifest_version": 3
+}

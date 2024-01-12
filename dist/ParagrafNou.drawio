@@ -1,0 +1,40 @@
+<mxfile host="app.diagrams.net" modified="2023-05-07T13:01:25.837Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="gRJIU_RF32997FcCVO7e" version="21.2.9" type="github">
+  <diagram name="Page-1" id="PjTgxjelHLMTIVskiN9_">
+    <mxGraphModel dx="1050" dy="573" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ORDeQYvTfZDBMbFEA2A7-1" value="Comandă: &quot;paragraf nou&quot;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="80" y="70" width="330" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="ORDeQYvTfZDBMbFEA2A7-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ORDeQYvTfZDBMbFEA2A7-4" target="ORDeQYvTfZDBMbFEA2A7-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ORDeQYvTfZDBMbFEA2A7-4" value="Captare comandă de către Zevo STT phrases" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="100" y="110" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ORDeQYvTfZDBMbFEA2A7-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ORDeQYvTfZDBMbFEA2A7-6" target="ORDeQYvTfZDBMbFEA2A7-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="400" y="140" />
+              <mxPoint x="400" y="190" />
+              <mxPoint x="165" y="190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ORDeQYvTfZDBMbFEA2A7-6" value="Intrare&amp;nbsp;în&amp;nbsp;mod &lt;br&gt;&quot;format&quot;&amp;nbsp;și&lt;br&gt;&amp;nbsp;căutare comandă&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="260" y="110" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ORDeQYvTfZDBMbFEA2A7-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ORDeQYvTfZDBMbFEA2A7-8" target="ORDeQYvTfZDBMbFEA2A7-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ORDeQYvTfZDBMbFEA2A7-8" value="Executare&amp;nbsp;apelând&lt;br&gt;Google Apps Script API" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="100" y="210" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ORDeQYvTfZDBMbFEA2A7-9" value="Revenire la interafața&amp;nbsp;inițială,&lt;br&gt;acutalizand status cu &quot;pargraf nou&quot;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="260" y="210" width="130" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
