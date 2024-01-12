@@ -33,8 +33,8 @@
 	],
 
 	"oauth2": {
-		"client_id": "381715553189-3c5hk7ngsbihkrgbkkk99u5i4u8kmlrt.apps.googleusercontent.com",
-		"api_key": "AIzaSyDnkjZBJKromGYZvYDvghwjHXZM3Sf_E1Y",
+		"client_id": "",
+		"api_key": "",
 		"scopes": [
 			"https://www.googleapis.com/auth/documents",
 			"https://www.googleapis.com/auth/drive",
